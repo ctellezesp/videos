@@ -1,0 +1,9 @@
+  * {
+    font-family: 'Ubuntu', sans-serif;  
+  }
+
+  table img {
+  width: auto;
+  height: 2em;
+  display: inline-block;
+}

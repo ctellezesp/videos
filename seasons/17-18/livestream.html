@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  </style>
+  <title> Chelsea FC - Livestream </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/materialize.css">
+  <link rel="stylesheet" href="../../css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="http://www.chelseafc.com/etc/designs/cfc/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/live.js"></script>
+  	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+      hd();
+ 		 });
+	</script>
+</head>
+<body>
+<!--menu-->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper blue darken-4">
+      <a href="#!" class="brand-logo"><img class="hide-on-small-only" src="media/header.png" style="margin-left: 20px; margin-top: 7px;"><span class="hide-on-med-and-up">Chelsea FC 2017-18</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../index.html"><i class="material-icons left">view_list</i>Seasons</a></li>
+        <li><a href="index.html"><i class="material-icons left">ondemand_video</i>Matchs</a></li>
+        <li><a href="calendar.html"><i class="material-icons left">date_range</i>Calendar</a></li>
+        <li class="active"><a href="livestream.html"><i class="material-icons left">live_tv</i>Live Stream</a></li>
+        <li><a href="team.html"><i class="material-icons left">people</i>Team</a></li>
+        <li><a href="gallery.html"><i class="material-icons left">photo</i>Gallery</a></li>
+        <li><a href="specials.html"><i class="material-icons left">theaters</i>Specials</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+<ul id="slide-out" class="side-nav">
+  <li><div class="userView">
+    <div class="background">
+      <img src="../../media/minibg.jpg">
+    </div>
+      <a href="#!user"><img class="circle" src="../../media/logo.png"></a>
+      <a href="#!name"><span class="white-text name">Chelsea FC</span></a>
+    </div></li>
+    <li><a href="index.html"><i class="material-icons">ondemand_video</i>Matchs</a></li>
+        <li><a href="calendar.html"><i class="material-icons">date_range</i>Calendar</a></li>
+        <li><a href="livestream.html"><i class="material-icons">live_tv</i>Live Stream</a></li>
+        <li><a href="team.html"><i class="material-icons">people</i>Team</a></li>
+        <li><a href="gallery.html"><i class="material-icons">photo</i>Gallery</a></li>
+        <li><a href="specials.html"><i class="material-icons">theaters</i>Specials</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="../../index.html"><i class="material-icons">view_list</i>Seasons</a></li>
+</ul>
+<div class="row" style="margin-top: 1%;">
+		<div class="col s12 m10 l9">
+      <div class="video-container">
+        <iframe src="https://player.twitch.tv/?channel=feulao" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+      </div>
+    </div>
+  <div class="col s12 m2 l3" class="center-align">
+    <a class="waves-effect waves-light btn blue darken-4" onclick="hd()" style="margin-bottom: 1%;"><i class="material-icons left">hd</i>High Definition</a>
+    <a class="waves-effect waves-light btn blue darken-4" onclick="hq()"><i class="material-icons left">high_quality</i>High Quality</a>
+  </div>
+</div>
+</body>
+<div class="fixed-action-btn horizontal click-to-toggle">
+    <a class="btn-floating btn-large blue darken-2">
+      <i class="material-icons">thumb_up</i>
+    </a>
+    <ul>
+      <li><a href="https://www.facebook.com/ChelseaFC/" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/chelseafc" target="_blank" class="btn-floating blue lighten-1"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/chelseafc/" target="_blank" class="btn-floating pink lighten-3"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCkFtRXY0biCsMO9fe06kX7Q" target="_blank" class="btn-floating red"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</div>
+<footer class="page-footer blue darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" >
+                <h5 class="white-text">Chelsea FC</h5>
+                <p class="grey-text text-lighten-4">Highlights &amp; Goals Season 2017/18.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/CTellez98">Twitter Personal</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/ChelseaFC">Twitter Club</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Carlos Tellez
+            <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Materialize Framework</a>
+            </div>
+          </div>
+        </footer>
+</html>

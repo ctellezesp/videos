@@ -1,0 +1,22 @@
+{
+  "name": "videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctellezesp/videos.git"
+  },
+  "author": "Carlos Tellez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctellezesp/videos/issues"
+  },
+  "homepage": "https://github.com/ctellezesp/videos#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

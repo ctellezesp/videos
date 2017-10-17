@@ -1,0 +1,14 @@
+ footer,nav, #main {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      nav, footer, #main {
+        padding-left: 0;
+      }
+    }
+
+.card .card-title {
+  font-size: 1.3em;
+  font-weight: 300;
+}

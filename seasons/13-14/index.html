@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  </style>
+  <title> Chelsea FC - 2013-14 </title>
+  <link rel="stylesheet" href="../../css/materialize.css">
+  <link rel="stylesheet" href="../../css/font-awesome.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="http://www.chelseafc.com/etc/designs/cfc/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="js/matches.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button-collapse").sideNav();
+  });
+  </script>
+</head>
+<body>
+<!--menu-->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper blue darken-4">
+      <a href="#!" class="brand-logo"><img class="hide-on-small-only" src="../../media/header.png" style="margin-left: 20px; margin-top: 7px;"><span class="hide-on-med-and-up">Chelsea FC 2013-14</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../../index.html"><i class="material-icons left">view_list</i>Seasons</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+<ul id="slide-out" class="side-nav">
+  <li><div class="userView">
+    <div class="background">
+      <img src="../../media/minibg.jpg">
+    </div>
+      <a href="#!user"><img class="circle" src="../../media/logo.png"></a>
+      <a href="#!name"><span class="white-text name">Chelsea FC</span></a>
+    </div></li>
+    <li><a href="../../index.html"><i class="material-icons">view_list</i>Seasons</a></li>
+</ul>
+<!--Matches-->
+<div class="row" style="margin-top: 1%;">
+<div class="col s12 m9 l9">
+ <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header" onclick="G1()"><i class="material-icons">hd</i>Chelsea vs Hull City - Matchday 1 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md1"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G2()"><i class="material-icons">hd</i>Manchester United vs Chelsea - Matchday 3 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md2"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G3()"><i class="material-icons">hd</i>Everton vs Chelsea - Matchday 4 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md3"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G4()"><i class="material-icons">hd</i>Chelsea vs Fulham - Matchday 5 - EPL</div>
+      <div class="collapsible-body">
+        <div class="video-container">
+        <p id="md4"></p>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G5()"><i class="material-icons">hd</i>Tottenham vs Chelsea - Matchday 6 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md5"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G6()"><i class="material-icons">hd</i>Norwich vs Chelsea - Matchday 7 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md6"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G7()"><i class="material-icons">hd</i>Chelsea vs Cardiff - Matchday 8 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md7"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G8()"><i class="material-icons">hd</i>Chelsea vs Manchester City - Matchday 9 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md8"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G9()"><i class="material-icons">hd</i>Newcastle vs Chelsea - Matchday 10 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md9"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G10()"><i class="material-icons">hd</i>Chelsea vs West Brom - Matchday 11 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md10"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G11()"><i class="material-icons">hd</i>West Ham vs Chelsea - Matchday 12 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md11"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G12()"><i class="material-icons">hd</i>Chelsea vs Southampton - Matchday 13 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md12"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G13()"><i class="material-icons">hd</i>Sunderland vs Chelsea - Matchday 14 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md13"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G14()"><i class="material-icons">hd</i>Stoke City vs Chelsea - Matchday 15 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md14"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G15()"><i class="material-icons">hd</i>Chelsea vs Crystal Palace - Matchday 16 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md15"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G16()"><i class="material-icons">hd</i>Arsenal vs Chelsea - Matchday 17 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md16"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G17()"><i class="material-icons">hd</i>Chelsea vs Swansea - Matchday 18 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md17">
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G18()"><i class="material-icons">hd</i>Chelsea vs Liverpool - Matchday 19 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md18"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G19()"><i class="material-icons">hd</i>Southampton vs Chelsea - Matchday 20 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md19"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G20()"><i class="material-icons">hd</i>Hull City vs Chelsea - Matchday 21 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md20"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G21()"><i class="material-icons">hd</i>Chelsea vs Manchester United - Matchday 22 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md21">
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G22()"><i class="material-icons">hd</i>Chelsea vs West Ham - Matchday 23 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md22"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G23()"><i class="material-icons">hd</i>Manchester City vs Chelsea - Matchday 24 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md23"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G24()"><i class="material-icons">hd</i>Chelsea vs Newcastle - Matchday 25 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md24">
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G25()"><i class="material-icons">hd</i>West Brom vs Chelsea - Matchday 26 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md25">
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G26()"><i class="material-icons">hd</i>Chelsea vs Everton - Matchday 27 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md26"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G27()"><i class="material-icons">hd</i>Fulham vs Chelsea - Matchday 28 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md27"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G28()"><i class="material-icons">hd</i>Chelsea vs Tottenham - Matchday 29 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md28"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G29()"><i class="material-icons">hd</i>Aston Villa vs Chelsea - Matchday 30 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md29"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G30()"><i class="material-icons">hd</i>Chelsea vs Arsenal - Matchday 31 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md30"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G31()"><i class="material-icons">hd</i>Crystal Palace vs Chelsea - Matchday 32 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md31">
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G32()"><i class="material-icons">hd</i>Chelsea vs Stoke City - Matchday 33 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md32"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G33()"><i class="material-icons">hd</i>Swansea vs Chelsea - Matchday 34 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md33"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G34()"><i class="material-icons">hd</i>Chelsea vs Sunderland - Matchday 35 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md34"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G35()"><i class="material-icons">hd</i>Liverpool vs Chelsea - Matchday 36 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md35"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G36()"><i class="material-icons">hd</i>Chelsea vs Norwich - Matchday 37 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md36"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G37()"><i class="material-icons">hd</i>Chelsea vs Cardiff - Matchday 38 - EPL</div>
+      <div class="collapsible-body">
+        <p id="md37"></p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header" onclick="G38()"><i class="material-icons">hd</i>Season Review</div>
+      <div class="collapsible-body">
+        <p id="md38"></p>
+      </div>
+    </li>
+  </ul>
+</div>  
+<div class="col s12 m3 l3">
+<table class="striped centered">
+        <thead>
+          <tr>
+              <th>Pos</th>
+              <th>Team</th>
+              <th>Pts</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Man City</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Liverpool</td>
+            <td>84</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Chelsea</td>
+            <td>82</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Arsenal</td>
+            <td>79</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Everton</td>
+            <td>72</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+<div class="fixed-action-btn horizontal click-to-toggle">
+    <a class="btn-floating btn-large blue">
+      <i class="material-icons">thumb_up</i>
+    </a>
+    <ul>
+      <li><a href="https://www.facebook.com/ChelseaFC/" target="_blank" class="btn-floating blue darken-4"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/chelseafc" target="_blank" class="btn-floating blue lighten-1"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/chelseafc/" target="_blank" class="btn-floating pink lighten-3"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCkFtRXY0biCsMO9fe06kX7Q" target="_blank" class="btn-floating red"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</div>
+<footer class="page-footer blue darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" >
+                <h5 class="white-text">Chelsea FC</h5>
+                <p class="grey-text text-lighten-4">Highlights &amp; Goals Season 2016/17.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/CTellez98">Twitter Personal</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/ChelseaFC">Twitter Club</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Carlos Tellez
+            <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Materialize Framework</a>
+            </div>
+          </div>
+        </footer>
+</body>
+</html>
